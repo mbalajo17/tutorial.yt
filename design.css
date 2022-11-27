@@ -1,0 +1,42 @@
+.main{
+    top: 30%;
+    left: 40%;
+    position: absolute;
+}
+.sub{
+    outline: darkcyan;
+    padding: 100px ;
+    background-color:yellowgreen;
+    border-radius: 20px;
+}
+body{
+    background-image: url(back01.jpg);
+    background-size: cover;
+}
+img{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 150px;
+    border-radius: 40px;
+}
+#name{
+    border: none;
+    background:transparent ;
+    border-bottom :1px solid white ;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+#send{
+    border-radius: 75px;
+    padding: 10px 20px;
+    background-color:blueviolet;
+    color:burlywood;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#send:hover{
+    background-color: rgb(92, 201,20);
+    cursor: pointer;
+    color: black;
+}
